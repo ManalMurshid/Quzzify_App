@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EMS</string>
+
+
+    <string-array name="batch_options">
+        <item>19/20 Batch</item>
+        <item>20/21 Batch</item>
+        <item>21/22 Batch</item>
+    </string-array>
+
+    <string-array name="degree_options">
+        <item>Information Technology</item>
+        <item>Biological Science</item>
+        <item>Physical Science</item>
+        <item>HPT</item>
+    </string-array>
+
+
+</resources>
