@@ -3,8 +3,8 @@ Examiners will create exams through google forms and upload the links along with
 The candidates will have a list of exams displayed in cards.
 Once the cards are clicked they will be redirected to the google form link.
 The respective layouts displayed below are 
-1.Login screen 
-2.Register screen
+\n1.Login screen 
+\n2.Register screen
 3.Candidate view page after login
 4.Add paper page for examiner
 5.Examiner view after adding papers with delete and update options
