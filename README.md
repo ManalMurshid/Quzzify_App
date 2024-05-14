@@ -2,9 +2,11 @@ The Quizzify app will allow examiners to create an upload exams, also the candid
 Examiners will create exams through google forms and upload the links along with the other detais.
 The candidates will have a list of exams displayed in cards.
 Once the cards are clicked they will be redirected to the google form link.
+
+
 The respective layouts displayed below are 
-\n1.Login screen 
-\n2.Register screen
+1.Login screen 
+2.Register screen
 3.Candidate view page after login
 4.Add paper page for examiner
 5.Examiner view after adding papers with delete and update options
