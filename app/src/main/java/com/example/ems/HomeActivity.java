@@ -33,11 +33,6 @@ public class HomeActivity extends AppCompatActivity {
 
 //         Assuming you pass the logged-in user's ID from LoginActivity
         loggedInUserName = getIntent().getStringExtra("USER_NAME");
-//        if (loggedInUserId == -1) {
-//            // Handle the case where user ID is not passed properly
-////            finish(); // Close the activity
-//        }
-
 //         Fetch papers for the logged-in user
         List<Paper> papers = dbHelper.getPapersForUser(loggedInUserName);
 
@@ -46,10 +41,7 @@ public class HomeActivity extends AppCompatActivity {
         for (Paper paper : papers) {
             addPaperCard(paper);
         }
-//        displayPapers(papers);
         addPaperButton = findViewById(R.id.add_paper_button);
-//        updatePaperButton = findViewById(R.id.update_paper_button);
-//        deletePaperButton = findViewById(R.id.delete_paper_button);
 
         addPaperButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,25 +67,6 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-
-
-//        updatePaperButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                // Redirect to UpdatePaperActivity
-//                Intent intent = new Intent(HomeActivity.this, UpdatePaperActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-
-//        deletePaperButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                // Redirect to DeletePaperActivity
-//                Intent intent = new Intent(HomeActivity.this, DeletePaperActivity.class);
-//                startActivity(intent);
-//            }
-//        });
     }
 
     private void addPaperCard(Paper paper) {
@@ -167,28 +140,4 @@ public class HomeActivity extends AppCompatActivity {
         // Add the card layout to the cardContainer LinearLayout
         cardContainer.addView(cardView);
     }
-
-//    private void displayPapers(List<Paper> papers) {
-//        // Iterate over the list of papers
-//        for (Paper paper : papers) {
-//            // Inflate the card layout for each paper
-//            View cardView = getLayoutInflater().inflate(R.layout.card_paper, null);
-//
-//            // Find views within the card layout
-//            TextView subjectTextView = cardView.findViewById(R.id.text_subject);
-//            TextView yearTextView = cardView.findViewById(R.id.text_year);
-//            TextView timeTextView = cardView.findViewById(R.id.text_time);
-//
-//            // Set paper details to the views
-//            subjectTextView.setText("Subject: " + paper.getSubject());
-//            yearTextView.setText("Year: " + String.valueOf(paper.getYear()));
-//            timeTextView.setText("Time: " + paper.getTimeDuration());
-//
-//            // Add the card to the card container
-//            cardContainer.addView(cardView);
-//        }
-//    }
-
-
-
 }
