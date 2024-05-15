@@ -1,7 +1,16 @@
-The Quizzify app will allow examiners to create an upload exams, also the candidates to get access to their examinations.
-Examiners will create exams through google forms and upload the links along with the other detais.
-The candidates will have a list of exams displayed in cards.
-Once the cards are clicked they will be redirected to the google form link.
+Welcome to Quizzify!
+Quizzify is a streamlined examination platform. It is designed to simplify the process for both examiners and candidates.
+
+
+Examiners:
+•	Examiners can craft exams using familiar tools like Google Forms.
+•	And then simply upload the Google Form link for your exam alongside other relevant details.
+
+
+Candidates:
+•	View all available examinations conveniently displayed in a card format.
+•	Click on the corresponding card to be seamlessly redirected to the Google Form link and begin your exam.
+
 
 
 The respective layouts displayed below are 
